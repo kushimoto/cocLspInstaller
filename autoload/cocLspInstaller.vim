@@ -9,4 +9,6 @@ function! cocLspInstaller#install()
 
 	endfor
 
+	execute "CocCommand clangd.install"
+
 endfunction
