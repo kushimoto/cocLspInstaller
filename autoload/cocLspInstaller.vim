@@ -1,6 +1,6 @@
 function! cocLspInstaller#install()
 
-	let extensions = ["coc-html", "coc-css", "coc-phpls", "coc-clangd", "coc-java", "coc-vimlsp", "coc-tsserver", "coc-json"]
+	let extensions = ["coc-html", "coc-css", "coc-phpls", "coc-clangd", "coc-java", "coc-vimlsp", "coc-tsserver", "coc-json", "coc-go"]
 
 	for extension in extensions
 
