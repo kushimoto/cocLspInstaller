@@ -12,7 +12,9 @@ function! cocLspInstaller#install()
 		"coc-go",
 		"coc-vetur",
 		"coc-prettier",
-		"coc-eslint"
+		"coc-eslint",
+		"coc-yaml",
+		"coc-sql"
 	]
 
 	for extension in extensions
